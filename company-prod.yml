@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: company
+  datasource:
+    url: jdbc:postgresql://localhost:5432/pgcompany
+    username: adminp
+    password: p123456
+    hikari:
+      connection-timeout: 20000
+      maximum-pool-size: 5
