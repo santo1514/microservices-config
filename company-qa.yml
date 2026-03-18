@@ -3,8 +3,8 @@ spring:
     name: company
   datasource:
     url: jdbc:postgresql://localhost:5432/pgcompany
-    username: adminqa
-    password: qa123456
+    username: admin
+    password: s123456
     hikari:
       connection-timeout: 20000
-      maximum-pool-size: 5
+      maximum-pool-size: 10
